@@ -1,0 +1,8 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="j2" type="Jinja2" />
+      <mapping pattern="decrypt" type="PHP" />
+    </extensionMap>
+  </component>
+</application>
