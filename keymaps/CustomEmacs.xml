@@ -27,6 +27,9 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl meta slash" />
   </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+  </action>
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="ctrl m" />
