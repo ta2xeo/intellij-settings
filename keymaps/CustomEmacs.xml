@@ -1,7 +1,6 @@
 <keymap version="1" name="CustomEmacs" parent="Emacs">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="alt c" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="$Redo">
@@ -21,6 +20,12 @@
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="right" />
   </action>
+  <action id="Console.TableResult.NavigateForeignAction">
+    <keyboard-shortcut first-keystroke="ctrl alt g" />
+    <keyboard-shortcut first-keystroke="alt period" />
+    <mouse-shortcut keystroke="control button1" />
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
@@ -30,16 +35,33 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
   </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="EditorPageUp">
     <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="alt v" />
     <keyboard-shortcut first-keystroke="meta v" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
@@ -49,7 +71,6 @@
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="shift alt comma" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="comma" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="open_bracket" />
   </action>
   <action id="EmacsStyleIndent">
@@ -58,7 +79,6 @@
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="period" />
     <keyboard-shortcut first-keystroke="alt period" />
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="ctrl period" />
@@ -75,6 +95,9 @@
   </action>
   <action id="PreviousProjectWindow">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="up" />
+  </action>
+  <action id="ReloadFromDisk">
+    <keyboard-shortcut first-keystroke="alt u" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
