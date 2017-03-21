@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="decrypt" type="PHP" />
       <mapping pattern="NavigationBar.vue" type="PLAIN_TEXT" />
+      <mapping pattern="ComicTable" type="Vue.js file" />
       <mapping ext="j2" type="Jinja2" />
     </extensionMap>
   </component>
