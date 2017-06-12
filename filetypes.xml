@@ -1,8 +1,10 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="tmpl" type="Go" />
       <mapping pattern="decrypt" type="PHP" />
       <mapping pattern="NavigationBar.vue" type="PLAIN_TEXT" />
+      <mapping ext="gotmpl" type="PLAIN_TEXT" />
       <mapping pattern="ColorFormItem" type="Vue.js" />
       <mapping ext="j2" type="Jinja2" />
       <mapping pattern="ComicTable" type="Vue.js file" />
