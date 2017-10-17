@@ -1,4 +1,5 @@
 <scheme name="Darkness Programmer" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="M+ 1mn" />
   <colors>
@@ -88,7 +89,7 @@
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="983498" />
+        <option name="FOREGROUND" value="ea50ea" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
@@ -460,6 +461,28 @@
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="cae682" />
+      </value>
+    </option>
+    <option name="JADE_FILE_PATH">
+      <value>
+        <option name="FOREGROUND" value="a978ff" />
+      </value>
+    </option>
+    <option name="JADE_FILTER_NAME">
+      <value>
+        <option name="FOREGROUND" value="b20000" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="JADE_JS_BLOCK">
+      <value>
+        <option name="FOREGROUND" value="e98089" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="c867d3" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
