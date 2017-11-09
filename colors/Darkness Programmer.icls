@@ -188,12 +188,13 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="cae682" />
+        <option name="FOREGROUND" value="46b638" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="cae682" />
+        <option name="FOREGROUND" value="e64643" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
@@ -203,7 +204,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="53dccd" />
+        <option name="FOREGROUND" value="f96a62" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
@@ -253,7 +254,7 @@
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
       <value>
-        <option name="FOREGROUND" value="cae682" />
+        <option name="FOREGROUND" value="93dc70" />
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
