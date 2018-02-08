@@ -85,6 +85,9 @@
   </action>
   <action id="ImplementMethods" />
   <action id="InsertLiveTemplate" />
+  <action id="Macro.reformat and save file">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl s" />
+  </action>
   <action id="MethodHierarchy.ImplementMethodAction" />
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="right" />
@@ -114,6 +117,7 @@
     <keyboard-shortcut first-keystroke="escape" second-keystroke="shift 5" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" second-keystroke="shift 5" />
   </action>
+  <action id="SaveAll" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
