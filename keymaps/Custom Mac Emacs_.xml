@@ -59,10 +59,12 @@
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="shift meta period" />
     <keyboard-shortcut first-keystroke="meta greater" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="close_bracket" />
   </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="shift meta comma" />
     <keyboard-shortcut first-keystroke="meta less" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="open_bracket" />
   </action>
   <action id="Emacs+.AppendNextKill">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
