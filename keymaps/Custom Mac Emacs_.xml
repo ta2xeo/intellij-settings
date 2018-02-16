@@ -1,4 +1,9 @@
 <keymap version="1" name="Custom Mac Emacs+" parent="Emacs+">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt minus" />
+    <keyboard-shortcut first-keystroke="ctrl meta slash" />
+  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt 1" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl j" />
@@ -12,6 +17,9 @@
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="CollapseSelection" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="ctrl meta slash" />
+  </action>
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
@@ -26,6 +34,11 @@
     <keyboard-shortcut first-keystroke="shift ctrl meta u" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="shift meta 6" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="meta circumflex" />
@@ -232,6 +245,7 @@
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="back_quote" />
   </action>
+  <action id="InsertLiveTemplate" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta up" />
     <keyboard-shortcut first-keystroke="ctrl meta e" />
@@ -262,6 +276,5 @@
   </action>
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
-    <keyboard-shortcut first-keystroke="ctrl meta slash" />
   </action>
 </keymap>
