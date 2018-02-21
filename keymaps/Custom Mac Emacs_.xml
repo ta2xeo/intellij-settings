@@ -16,7 +16,9 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
-  <action id="CollapseSelection" />
+  <action id="CollapseSelection">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="right" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl meta slash" />
   </action>
