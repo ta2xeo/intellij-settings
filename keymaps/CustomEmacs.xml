@@ -106,6 +106,9 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
   <action id="ReloadFromDisk">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
