@@ -1,4 +1,10 @@
 <keymap version="1" name="Custom Mac Emacs+" parent="Emacs+">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
     <keyboard-shortcut first-keystroke="shift alt minus" />
@@ -19,6 +25,12 @@
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="right" />
   </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl meta slash" />
   </action>
@@ -35,15 +47,25 @@
   <action id="EditorCodeBlockStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl meta u" />
   </action>
+  <action id="EditorCutLineEnd">
+    <keyboard-shortcut first-keystroke="ctrl k" />
+  </action>
   <action id="EditorDuplicate" />
   <action id="EditorEnter">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="ctrl g" />
+  </action>
   <action id="EditorJoinLines">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="shift meta 6" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="meta circumflex" />
+  </action>
+  <action id="EditorKillRegion">
+    <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl meta f" />
@@ -53,6 +75,9 @@
   </action>
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta at" />
@@ -152,6 +177,7 @@
   <action id="Emacs+.ISYankLast">
     <keyboard-shortcut first-keystroke="meta y" />
   </action>
+  <action id="Emacs+.ISYankLine" />
   <action id="Emacs+.ISearchBackwardRegexp">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
@@ -213,6 +239,7 @@
     <keyboard-shortcut first-keystroke="meta u" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="u" />
   </action>
+  <action id="Emacs+.Yank" />
   <action id="Emacs+.YankPop">
     <keyboard-shortcut first-keystroke="meta y" />
     <keyboard-shortcut first-keystroke="escape" second-keystroke="y" />
@@ -263,6 +290,9 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
+  <action id="PasteMultiple">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
@@ -270,6 +300,7 @@
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="ctrl semicolon" />
