@@ -6,6 +6,7 @@
       <mapping pattern="verify" type="PHP" />
       <mapping pattern="NavigationBar.vue" type="PLAIN_TEXT" />
       <mapping ext="gotmpl" type="PLAIN_TEXT" />
+      <mapping pattern="ellipsis-tag.vue" type="Vue.js" />
       <mapping pattern="ColorFormItem" type="Vue.js" />
       <mapping pattern="banner_slots_list.vue" type="Vue.js" />
       <mapping pattern="YesNoComponent" type="Vue.js" />
