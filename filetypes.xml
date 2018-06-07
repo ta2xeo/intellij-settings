@@ -2,13 +2,14 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="tmpl" type="Go" />
-      <mapping pattern="decrypt" type="PHP" />
       <mapping pattern="verify" type="PHP" />
+      <mapping pattern="decrypt" type="PHP" />
       <mapping pattern="NavigationBar.vue" type="PLAIN_TEXT" />
       <mapping ext="gotmpl" type="PLAIN_TEXT" />
-      <mapping pattern="ellipsis-tag.vue" type="Vue.js" />
-      <mapping pattern="ColorFormItem" type="Vue.js" />
       <mapping pattern="banner_slots_list.vue" type="Vue.js" />
+      <mapping pattern="ColorFormItem" type="Vue.js" />
+      <mapping pattern="ellipsis-tag.vue" type="Vue.js" />
+      <mapping pattern="NavigatonBar.vue" type="Vue.js" />
       <mapping pattern="YesNoComponent" type="Vue.js" />
       <mapping ext="j2" type="Jinja2" />
       <mapping pattern="ComicTable" type="Vue.js file" />
