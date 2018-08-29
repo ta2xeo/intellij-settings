@@ -1,15 +1,12 @@
 <application>
   <component name="libraryTable">
-    <library name="Python 2.7 (deploy2) interpreter library">
+    <library name="Python 2.7 virtualenv at ~/.anyenv/envs/pyenv/versions/2.7.12/envs/deploy2 interpreter library">
       <CLASSES>
-        <root url="file://$USER_HOME$/sources/link-u/python-2-global/deploy2/venv/lib/python2.7" />
-        <root url="file://$USER_HOME$/sources/link-u/python-2-global/deploy2/venv/lib/python2.7/lib-dynload" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/plat-darwin" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/lib-tk" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/plat-mac" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/plat-mac/lib-scriptpackages" />
-        <root url="file://$USER_HOME$/sources/link-u/python-2-global/deploy2/venv/lib/python2.7/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.1/python_stubs/-1690397570" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2" />
@@ -19,14 +16,11 @@
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="file://$USER_HOME$/sources/link-u/python-2-global/deploy2/venv/lib/python2.7" />
-        <root url="file://$USER_HOME$/sources/link-u/python-2-global/deploy2/venv/lib/python2.7/lib-dynload" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/plat-darwin" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/lib-tk" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/plat-mac" />
         <root url="file://$USER_HOME$/.anyenv/envs/pyenv/versions/2.7.12/lib/python2.7/plat-mac/lib-scriptpackages" />
-        <root url="file://$USER_HOME$/sources/link-u/python-2-global/deploy2/venv/lib/python2.7/site-packages" />
         <root url="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.1/python_stubs/-1690397570" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib/2" />
