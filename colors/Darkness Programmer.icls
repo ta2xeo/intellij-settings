@@ -1,5 +1,6 @@
 <scheme name="Darkness Programmer" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="M+ 1mn" />
   <colors>
@@ -351,6 +352,8 @@
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+        <option name="EFFECT_COLOR" value="d57b00" />
+        <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
     <option name="DIFF_CONFLICT">
