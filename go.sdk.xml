@@ -3,9 +3,9 @@
     <sdk-path>
       <set>
         <option value="$USER_HOME$/.anyenv/envs/goenv/versions/1.10" />
+        <option value="$USER_HOME$/.anyenv/envs/goenv/versions/1.11.1" />
         <option value="$USER_HOME$/.anyenv/envs/goenv/versions/1.8" />
       </set>
     </sdk-path>
-    <imported-from-old-model>true</imported-from-old-model>
   </component>
 </application>
