@@ -88,5 +88,6 @@
       <artifact name="ClickHouse" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="com.mysql.cj.jdbc.Driver" name="com.mysql.cj.jdbc.Driver" driver-class="com.mysql.cj.jdbc.Driver" />
   </component>
 </application>
