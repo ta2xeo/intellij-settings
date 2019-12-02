@@ -6,6 +6,7 @@
       <language id="Angular2Html" />
       <language id="JavaScript" />
       <language id="kotlin" />
+      <language id="PHP" />
       <language id="Groovy" />
       <language id="SQL" />
     </disabledLanguages>
