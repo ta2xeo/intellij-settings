@@ -25,11 +25,15 @@
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="right" />
   </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.Jdbc.Execute" />
   <action id="Console.TableResult.NavigateForeignAction">
     <keyboard-shortcut first-keystroke="meta period" />
     <mouse-shortcut keystroke="control button1" />
     <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
+  <action id="Console.TableResult.Submit" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
@@ -97,6 +101,9 @@
     <keyboard-shortcut first-keystroke="shift meta comma" />
     <keyboard-shortcut first-keystroke="meta less" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="open_bracket" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Emacs+.AppendNextKill">
     <keyboard-shortcut first-keystroke="ctrl meta w" />
@@ -261,7 +268,10 @@
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="back_quote" />
   </action>
+  <action id="Groovy.Shell.Execute" />
   <action id="InsertLiveTemplate" />
+  <action id="JupyterRunCellAction" />
+  <action id="KotlinShellExecute" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="meta up" />
     <keyboard-shortcut first-keystroke="ctrl meta e" />
@@ -289,6 +299,7 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
+  <action id="PyExecuteCellAction" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="ctrl meta l" />
@@ -306,6 +317,7 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
+  <action id="ViewSource" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
