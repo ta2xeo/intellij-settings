@@ -346,7 +346,7 @@
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="242424" />
-        <option name="BACKGROUND" value="f6f3e8" />
+        <option name="BACKGROUND" value="f6c9bc" />
       </value>
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
@@ -460,6 +460,24 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="f6f3e8" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="FOREGROUND" value="333333" />
+        <option name="BACKGROUND" value="ededed" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_CURRENT">
+      <value>
+        <option name="FOREGROUND" value="414141" />
+        <option name="BACKGROUND" value="bcdaf7" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="292929" />
+        <option name="BACKGROUND" value="cccccc" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -12704,6 +12722,11 @@
         <option name="FOREGROUND" value="a8c023" />
         <option name="FONT_TYPE" value="2" />
         <option name="ERROR_STRIPE_COLOR" value="a74c0" />
+      </value>
+    </option>
+    <option name="TS.TYPE_GUARD">
+      <value>
+        <option name="BACKGROUND" value="9a0505" />
       </value>
     </option>
     <option name="TYPO">
