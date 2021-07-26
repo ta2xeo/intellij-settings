@@ -224,6 +224,7 @@
   <action id="Emacs+.TWScrollDown">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="Emacs+.TransposeChars" />
   <action id="Emacs+.TransposeWords">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
@@ -249,7 +250,7 @@
     <keyboard-shortcut first-keystroke="meta f7" />
   </action>
   <action id="FocusEditor">
-    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
+    <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -324,7 +325,9 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift ctrl space" />
   </action>
-  <action id="Terminal.SwitchFocusToEditor" />
+  <action id="Terminal.SwitchFocusToEditor">
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="escape" />
+  </action>
   <action id="ViewSource" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl meta r" />
