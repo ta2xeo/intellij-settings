@@ -15,6 +15,7 @@
         <entry key="Memory" value="true" />
         <entry key="Notifications" value="false" />
         <entry key="Position" value="false" />
+        <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
       </map>
     </option>
   </component>
