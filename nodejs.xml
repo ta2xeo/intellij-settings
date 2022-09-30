@@ -1,5 +1,0 @@
-<application>
-  <component name="NodeJsLocalInterpreterManager">
-    <local-interpreter path="$USER_HOME$/.asdf/shims/node" excluded="true" />
-  </component>
-</application>

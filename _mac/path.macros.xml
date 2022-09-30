@@ -1,0 +1,10 @@
+<application>
+  <component name="PathMacrosImpl">
+    <macro name="MAVEN_REPOSITORY" value="/Users/ta2xeo/.m2/repository" />
+    <macro name="KOTLIN_BUNDLED" value="/Users/ta2xeo/Library/Application Support/JetBrains/IntelliJIdea2021.1/plugins/Kotlin/kotlinc" />
+    <ignoredMacro name="MESSAGE" />
+    <ignoredMacro name="FILE_PATH" />
+    <ignoredMacro name="LINE" />
+    <ignoredMacro name="COLUMN" />
+  </component>
+</application>
