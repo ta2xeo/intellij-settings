@@ -28,6 +28,7 @@
     <option name="LINE_NUMBERS_COLOR" value="656565" />
     <option name="METHOD_SEPARATORS_COLOR" value="656565" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
+    <option name="NOTIFICATION_BACKGROUND" value="6a5d11" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
     <option name="RIGHT_MARGIN_COLOR" value="323232" />
     <option name="SELECTED_INDENT_GUIDE" value="0" />
@@ -12727,6 +12728,11 @@
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f6f3e8" />
+      </value>
+    </option>
+    <option name="TERMINAL_COMMAND_TO_RUN_USING_IDE">
+      <value>
+        <option name="BACKGROUND" value="408e2a" />
       </value>
     </option>
     <option name="TEXT">
